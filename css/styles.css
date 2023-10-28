@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.countdown-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-container {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+    margin: -20px -20px 20px -20px;
+}
+
+#countdown-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.countdown-timer {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input#event-title,
+select#event-timezone,
+input#event-datetime {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+label[for="event-timezone"] {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+label[for="event-datetime"] {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input-container select,
+.input-container input {
+    margin: 0 auto;
+}
+
+button#cancel-countdown {
+    background-color: rgb(255, 33, 33);
+}
+
+button#cancel-countdown:hover {
+    background-color: rgb(210, 0, 0);
+}
+
+
